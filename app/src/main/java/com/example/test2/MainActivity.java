@@ -23,25 +23,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Bmob.initialize(this, "b2ab2a965d7a4ea905eeba56d4a2fa4d");
-
-//        Person p2 = new Person();
-//
-//        p2.setName("lucky");
-//        p2.setAddress("北京海淀");
-//        p2.save(new SaveListener<String>() {
-//            @Override
-//            public void done(String objectId,BmobException e) {
-//                Toast toast = Toast.makeText(getApplicationContext(),"yes",Toast.LENGTH_LONG);
-//                Toast toast1 = Toast.makeText(getApplicationContext(),"fuck",Toast.LENGTH_LONG);
-//
-//                if(e==null){
-//
-//                    toast.show();
-//                }else{
-//                    toast1.show();
-//                }
-//            }
-//        });
     }
 
     public void onClick_Event(View view) {
